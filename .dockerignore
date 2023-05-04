@@ -1,0 +1,10 @@
+# only include main app dirs in this docker image
+*
+!cronitor_rum_relay
+!requirements.txt
+!bin
+
+# ensure these are not added to image
+.git
+venv
+.venv

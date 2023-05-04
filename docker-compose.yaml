@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  relay:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: cronitor-rum-relay:dev
+    working_dir: /opt/app/
+    volumes:
+      - ./cronitor_rum_relay:/opt/app/cronitor_rum_relay
+    command: bin/start-dev.sh
+    ports:
+      - "8000:8000"
