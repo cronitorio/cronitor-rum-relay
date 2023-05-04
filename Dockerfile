@@ -25,6 +25,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update -y
+RUN apt-get install -y curl
 
 COPY --from=build /opt/venv/ /opt/venv/
 
