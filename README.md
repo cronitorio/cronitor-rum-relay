@@ -8,7 +8,7 @@ This server becomes the first point of contact for your visitor's data and strip
 
 Relay is meant to support our customers in the following ways
 
-- Facilitate privacy and security compliance by processing personal data on a server customers control.
+- Facilitate privacy and security compliance by processing personal data in a server you control.
 - Reduce exposure of user IP addresses to third parties.
 - Retain the ability to perform geo lookups and assign session IDs for RUM data.
 
@@ -86,7 +86,7 @@ If you run the server as a regular system process instead of using the docker-ba
 
 ## Available Settings
 
-The following settings are available to customize the behavior of the relay server:
+The following environment variables are available to customize the behavior of the relay server:
 
 - **SECRET_SALT**: The secret salt used to generate the session ID. Defaults to a secure random string that changes on server start.
 - **DRY_MODE**: Set to true to enable dry mode, which logs the processed events without recording them in Cronitor. Default is `false`.
