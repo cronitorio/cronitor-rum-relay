@@ -1,6 +1,6 @@
 # Cronitor RUM Relay
 
-Relay enables [Cronitor RUM](https://cronitor.io/docs/real-user-monitoring) customers to process perssonal data on a server they control while leveraging our platform for data storage and analytics.
+Relay enables [Cronitor RUM](https://cronitor.io/docs/real-user-monitoring) customers to process personal data on a server they control while leveraging our platform for data storage and analytics.
 
 This server becomes the first point of contact for your visitor's data and strips out IP addresses before they even reach our servers.
 
